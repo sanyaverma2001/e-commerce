@@ -1,0 +1,41 @@
+body{
+  background-color: azure;
+}
+.nav-item a:hover{
+ /* text-transform: black;    */
+background-color: rgb(255, 51, 0);
+}
+
+/* .rating{color:#FFD200;font-size:12px;padding:12px 0 0;margin:0;list-style:none;position:relative;z-index:-1} */
+ /* .rating li.disable{color:rgba(0,0,0,.2)} */
+ .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  /* .product-grid .rating{color:#FFD200;font-size:12px;padding:12px 0 0;margin:0;list-style:none;position:relative;z-index:-1}
+  .product-grid .rating li.disable{color:rgba(0,0,0,.2)}
+   */
+   .product-grid .rating{
+       color: rgb(231, 231, 8);
+   }
+   .nav-item{
+     color: rgba(0, 0, 0, 0.767);
+     font-family: monospace;
+     text-transform: uppercase;
+   }
+   /* .card{
+     margin: 40px;
+   } */
+   
+   
